@@ -1,0 +1,64 @@
+.container {
+  width: 70%;
+  margin: auto;   
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+#tossBtn {
+  display: block;          /* forces button to new line */
+  margin: 40px auto 0;     /* center horizontally */
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+  color: #fff;
+  background-color: #4ECCA3;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px #232931;
+  transition: all 0.2s ease;
+}
+
+#tossBtn:hover {
+  background-color: #3aa786;
+}
+
+#tossBtn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px #232931;
+}
